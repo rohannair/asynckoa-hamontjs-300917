@@ -1,0 +1,12 @@
+{
+  "name": "asynckoa-sep30",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Rohan Nair <r@rohannair.ca>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
+  }
+}
