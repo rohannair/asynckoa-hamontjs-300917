@@ -13,11 +13,11 @@ router.all('/', async ctx => {
 })
 
 app
-  .use(async (ctx, next) => {
-    console.log('RESPONSE BEFORE CONTROLLER\n', ctx.response, '\n')
-    await next()
-    console.log('RESPONSE AFTER CONTROLLER\n', ctx.response, '\n')
-  })
+  // .use(async (ctx, next) => {
+  //   console.log('RESPONSE BEFORE CONTROLLER\n', ctx.response, '\n')
+  //   await next()
+  //   console.log('RESPONSE AFTER CONTROLLER\n', ctx.response, '\n')
+  // })
   .use(router.routes())
 
 app.listen(3000, err => {
